@@ -1,0 +1,102 @@
+name = mobolify
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[header2]         = 'Top Bar2'
+regions[header3]         = 'Top Bar3'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[Content_top]        = 'Content_top'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[footer_firstcolumn]         = 'footer_firstcolumn'
+regions[footer_secondcolumn]         = 'footer_secondcolumn'
+regions[footer_thirdcolumn]         = 'footer_thirdcolumn'
+regions[footer_fourthcolumn]         = 'footer_fourthcolumn'
+regions[footer_fifthcolumn]         = 'footer_fifthcolumn'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'  = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = assets/css/elements.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = assets/css/bootstrap.min.css
+stylesheets[all][] = assets/css/awesome/css/font-awesome.min.css
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+
+ scripts[] = 'assets/js/custom.js'
+ scripts[] = 'assets/js/elements/swiper/swiper.min.js'
+ scripts[] = 'assets/js/elements/isotope/isotope.min.js'
+ scripts[] = 'assets/js/elements/owl/owl.carousel.min.js'
+ scripts[] = 'assets/js/jquery.easing.1.3.js'
+ scripts[] = 'assets/js/modernizr.custom.25376.js'
+ scripts[] = 'assets/js/elements/fancybox/jquery.fancybox.pack.js'
+ scripts[] = 'assets/js/classie.js'
+scripts[] = 'assets/js/bootstrap/bootstrap.min.js'
+scripts[] = 'assets/js/jquery.sticky.js'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+ scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.
